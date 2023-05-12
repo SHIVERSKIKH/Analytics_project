@@ -1124,7 +1124,7 @@ footer {
         background-image: url(../img/mobile-main-img.png);
     }
     .advantages-setting-img {
-        background-image: url(/img/mobile-main-img2.png);
+        background-image: url(../img/mobile-main-img2.png);
         margin-bottom: 0;
     }
     .advantages-dashboard-img {
@@ -1306,7 +1306,7 @@ footer {
         height: 2px;
     }
     .price-content-list::-webkit-scrollbar-thumb {
-        background-color: #9D2334;
+        background-color: #8794BA;
     }
     .decorative-elem-mobile {
         display: none;
