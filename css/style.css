@@ -21,6 +21,7 @@ ul {
     background-position: center;
     background-size: cover;
     background-position: left bottom;
+    overflow-x: hidden;
 }
 .header {
     padding-top: 50px;
@@ -164,13 +165,14 @@ ul {
     display: none;
 }
 .top-content-photo {
-    max-width: 750px;
+    box-sizing: border-box;
+    max-width: 873px;
     width: 100%;
-    min-height: 554px;
-    background-image: url(../img/chart-3.svg),url(../img/main-screen-small.svg);
+    min-height: 555px;
+    background-image: url(../img/main-screen01.png);
     position: absolute;
     background-repeat: no-repeat;
-    background-position: -37px 107px, right -17px;
+    box-shadow: 74px 18px 50px -15px rgba(25, 42, 89, 0.2);
 }
 main {
     padding-top: 55px;
