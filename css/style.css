@@ -997,13 +997,15 @@ footer {
         text-decoration: none;
       }
       .btn-reg{
-          display: block;
-          width: 161px;
-          height: 40px;
-          background-color: #1E2E5C;
-          border: 1px solid #465B95;
-          border-radius: 68px;
-          color:#8794BA;
+        display: flex;
+        width: 161px;
+        height: 40px;
+        background-color: #1E2E5C;
+        border: 1px solid #465B95;
+        border-radius: 68px;
+        color:#8794BA;
+        justify-content: center;
+        align-items: center;
       }
       .btn-reg:hover {
         background-color:#8794BA ;
