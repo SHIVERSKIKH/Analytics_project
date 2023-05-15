@@ -213,7 +213,8 @@ main {
 }
 .icon_3 {
     background: url(../img/content-icon3.png); 
-    background-size: contain;  
+    background-size: contain;
+    background-repeat: no-repeat;  
 }
 .content-info-group {
     display: flex;
@@ -961,7 +962,7 @@ footer {
         text-align:center;
       }
       .menu-mobile-list-item > a {
-        display: block;
+        display: flex;
         margin: 0 0 11px 0;
         color: #8794BA;
         text-decoration: none;
@@ -1183,8 +1184,6 @@ footer {
         text-align: left;
         margin: 0 0 59px 0;
     }
-   
-  
     .price-content-item {
         max-width: 280px;
         width: 100%;
